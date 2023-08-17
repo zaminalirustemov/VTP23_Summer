@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\bin\Debug\net6.0\Participant_Panel.Entites.deps.json
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\bin\Debug\net6.0\Participant_Panel.Entites.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\bin\Debug\net6.0\Participant_Panel.Entites.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.AssemblyInfo.cs
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\refint\Participant_Panel.Entites.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\Participant_Panel.Entites.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Entites\obj\Debug\net6.0\ref\Participant_Panel.Entites.dll

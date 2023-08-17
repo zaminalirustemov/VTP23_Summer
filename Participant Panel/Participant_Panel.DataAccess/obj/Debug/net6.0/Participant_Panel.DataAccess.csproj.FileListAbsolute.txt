@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.DataAccess.deps.json
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.DataAccess.runtimeconfig.json
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.DataAccess.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.DataAccess.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.Entites.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\bin\Debug\net6.0\Participant_Panel.Entites.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.AssemblyInfo.cs
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.csproj.CopyComplete
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\refint\Participant_Panel.DataAccess.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\Participant_Panel.DataAccess.genruntimeconfig.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.DataAccess\obj\Debug\net6.0\ref\Participant_Panel.DataAccess.dll

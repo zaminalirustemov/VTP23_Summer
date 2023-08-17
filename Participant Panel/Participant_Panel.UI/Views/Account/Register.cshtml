@@ -1,0 +1,133 @@
+﻿@model MemberRegisterDto
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Corona Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="~/assets/images/favicon.png" />
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="row w-100 m-0">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+                    <div class="card col-lg-4 mx-auto">
+                        <div class="card-body px-5 py-5">
+                            <h3 class="card-title text-left mb-3">Register</h3>
+                            <form method="post">
+                                <div class="form-group">
+                                    <label asp-for="Username">Username</label>
+                                    <input asp-for="Username" class="form-control p_input">
+                                    <span asp-validation-for="Username" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Name">Name</label>
+                                    <input asp-for="Name" class="form-control p_input">
+                                    <span asp-validation-for="Name" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Surname">Surname</label>
+                                    <input asp-for="Surname" class="form-control p_input">
+                                    <span asp-validation-for="Surname" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="DateOfBith">DateOfBith</label>
+                                    <input asp-for="DateOfBith" type="date" value="@DateTime.Now" class="form-control p_input">
+                                    <span asp-validation-for="DateOfBith" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="DepartmentId">DepartmentId</label>
+                                    <select class="form-control" asp-for="DepartmentId">
+                                        @foreach (DepartmentListDto department in ViewBag.Departments)
+                                        {
+                                            <option value="@department.Id">@department.Name</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="DepartmentId" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="University">University</label>
+                                    <input asp-for="University" class="form-control p_input">
+                                    <span asp-validation-for="University" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Specialty">Specialty</label>
+                                    <input asp-for="Specialty" class="form-control p_input">
+                                    <span asp-validation-for="Specialty" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Class">Class</label>
+                                    <select class="form-control" asp-for="Class">
+
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+
+                                    </select>
+                                    <span asp-validation-for="Class" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password">Password</label>
+                                    <input asp-for="Password" class="form-control p_input">
+                                    <span asp-validation-for="Password" style="color:red"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ConfirmPassword">ConfirmPassword</label>
+                                    <input asp-for="ConfirmPassword" class="form-control p_input">
+                                    <span asp-validation-for="ConfirmPassword" style="color:red"></span>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-block enter-btn">Register</button>
+                                </div>
+                                <div class="d-flex">
+
+                                    <a  asp-action="login" asp-controller="account" class="btn btn-google col">
+                                        Go to Login page
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/assets/js/off-canvas.js"></script>
+    <script src="~/assets/js/hoverable-collapse.js"></script>
+    <script src="~/assets/js/misc.js"></script>
+    <script src="~/assets/js/settings.js"></script>
+    <script src="~/assets/js/todolist.js"></script>
+    <!-- endinject -->
+</body>
+</html>

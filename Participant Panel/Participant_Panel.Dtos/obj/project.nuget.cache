@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4/KA9S4tSl4Ubu6eOxPKPnseA24mar+ZFsJhHQFLZICgmsJYhr0M9K5KLHA2onS5iGhAEyuJ2MPDeIRsGnm2UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Dtos\\Participant_Panel.Dtos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,111 @@
+﻿@model MemberUpdateDto
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title">Update Member</h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Member</li>
+                <li class="breadcrumb-item">Table</li>
+                <li class="breadcrumb-item active" aria-current="page">Update</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div style="width:250px; margin-top:10px;border:outset">
+                                    <img style="max-width:100%" src="~/uploads/member/@Model.ImageName" alt="" />
+                                    <input type="hidden" asp-for="@Model.ImageName">
+
+                                </div>
+                        <div class="form-group row">
+                            <label asp-for="ImageFile" class="col-sm-3 col-form-label">ImageFile</label>
+                            <div class="col-sm-9">
+                                <input asp-for="ImageFile" class="form-control">
+                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                               
+                            
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label asp-for="DepartmentId" class="col-sm-3 col-form-label">Department</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" asp-for="DepartmentId">
+                                    @foreach (DepartmentListDto department in ViewBag.Departments)
+                                    {
+                                        <option value="@department.Id">@department.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Name" class="col-sm-3 col-form-label">Name</label>
+                            <div class="col-sm-9">
+                                <input asp-for="Name" class="form-control" placeholder="Name">
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Surname" class="col-sm-3 col-form-label">Surname</label>
+                            <div class="col-sm-9">
+                                <input asp-for="Surname" class="form-control" placeholder="Surname">
+                                <span asp-validation-for="Surname" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="DateOfBirth" class="col-sm-3 col-form-label">DateOfBirth</label>
+                            <div class="col-sm-9">
+                                <input asp-for="DateOfBirth" class="form-control" type="date" >
+                                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                                <input type="hidden" asp-for="DateOfBirth">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="University" class="col-sm-3 col-form-label">University</label>
+                            <div class="col-sm-9">
+                                <input asp-for="University" class="form-control" placeholder="University">
+                                <span asp-validation-for="University" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Specialty" class="col-sm-3 col-form-label">Specialty</label>
+                            <div class="col-sm-9">
+                                <input asp-for="Specialty" class="form-control" placeholder="Specialty">
+                                <span asp-validation-for="Specialty" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label asp-for="Class" class="col-sm-3 col-form-label">Class</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" asp-for="Class">
+
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+
+                                </select>
+                                <span asp-validation-for="Class" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Hobbies" class="col-sm-3 col-form-label">Hobbies</label>
+                            <div class="col-sm-9">
+                                <textarea asp-for="Hobbies" class="form-control" id="exampleTextarea1" rows="10"></textarea>
+                                <span asp-validation-for="Hobbies" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-inverse-success mr-2">Create</button>
+                        <button asp-action="index" asp-controller="member" class="btn btn-dark">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

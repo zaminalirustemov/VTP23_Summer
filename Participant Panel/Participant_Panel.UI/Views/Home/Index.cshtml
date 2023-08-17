@@ -1,0 +1,140 @@
+﻿@{
+    IQueryable<AppUser> appUsersIT = ViewBag.IT;
+    IQueryable<AppUser> appUsersAccounting = ViewBag.Accounting;
+    IQueryable<AppUser> appUsersHumanResources = ViewBag.HumanResources;
+    IQueryable<AppUser> appUsersProcurementLogistics = ViewBag.ProcurementLogistics;
+    IQueryable<AppUser> appUsersRoadConstructionEngineering = ViewBag.RoadConstructionEngineering;
+    IQueryable<AppUser> appUsersDigitalMarketing = ViewBag.DigitalMarketing;
+}
+
+<div class="row">
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>IT - WEB</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersIT.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-web text-primary ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>Accounting</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersAccounting.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-deskphone text-danger ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>Human Resources</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersHumanResources.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-human-male text-success ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>Procurement Logistics</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersProcurementLogistics.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-subway text-warning ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>Road Construction Engineering</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersRoadConstructionEngineering.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-engine text-dark ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h5>Digital Marketing</h5>
+                <div class="row">
+                    <div class="col-8 col-sm-12 col-xl-8 my-auto">
+                        <div class="d-flex d-sm-block d-md-flex align-items-center">
+                            <h2 class="mb-0">@appUsersDigitalMarketing.Count() participant</h2>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-12 col-xl-4 text-center text-xl-right">
+                        <i class="icon-lg mdi mdi-monitor text-secondary ml-auto"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+        <h4 class="card-title">Transaction History</h4>
+        <canvas id="transaction-history" class="transaction-chart chartjs-render-monitor" style="display: block; height: 160px; width: 321px;" width="401" height="200"></canvas>
+        <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
+            <div class="text-md-center text-xl-left">
+                <h6 class="mb-1">Transfer to Paypal</h6>
+                <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
+            </div>
+            <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
+                <h6 class="font-weight-bold mb-0">$236</h6>
+            </div>
+        </div>
+        <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
+            <div class="text-md-center text-xl-left">
+                <h6 class="mb-1">Tranfer to Stripe</h6>
+                <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
+            </div>
+            <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
+                <h6 class="font-weight-bold mb-0">$593</h6>
+            </div>
+        </div>
+    </div>
+</div>

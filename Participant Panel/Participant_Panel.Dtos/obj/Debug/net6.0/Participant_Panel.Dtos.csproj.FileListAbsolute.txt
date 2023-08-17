@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\bin\Debug\net6.0\Participant_Panel.Dtos.deps.json
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\bin\Debug\net6.0\Participant_Panel.Dtos.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\bin\Debug\net6.0\Participant_Panel.Dtos.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.AssemblyInfo.cs
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\refint\Participant_Panel.Dtos.dll
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\Participant_Panel.Dtos.pdb
+C:\Users\HP\Desktop\VTP 23(Summer) - Participant Panel\Participant Panel\Participant_Panel.Dtos\obj\Debug\net6.0\ref\Participant_Panel.Dtos.dll
