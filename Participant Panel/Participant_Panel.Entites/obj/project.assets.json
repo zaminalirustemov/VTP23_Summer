@@ -900,11 +900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\Participant_Panel.Entites.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\Participant_Panel.Entites.csproj",
       "projectName": "Participant_Panel.Entites",
-      "projectPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\Participant_Panel.Entites.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\Participant_Panel.Entites.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Entites\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

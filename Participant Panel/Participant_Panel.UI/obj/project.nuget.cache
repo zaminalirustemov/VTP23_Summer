@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uf7TwXFh1peEhfZT9cVi3hE+VSEfi6YoAhr3pEcq43IvLfrkJLgIbCrslA7pG7odkOHqVITdDZrQ3yqB7uak5w==",
+  "dgSpecHash": "20+XQcNerrsRkmkB5B7zNVNGnrsL3MCvN2gmzWkjPTiuPQQ4GHiEgQEtr3cSsoaXXJ3ZTH4TxM/2FL/wE5necg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.UI\\Participant_Panel.UI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.UI\\Participant_Panel.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",

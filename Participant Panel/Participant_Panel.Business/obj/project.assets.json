@@ -2938,11 +2938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\Participant_Panel.Business.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\Participant_Panel.Business.csproj",
       "projectName": "Participant_Panel.Business",
-      "projectPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\Participant_Panel.Business.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\Participant_Panel.Business.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2959,14 +2959,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Common\\Participant_Panel.Common.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Common\\Participant_Panel.Common.csproj"
+            "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Common\\Participant_Panel.Common.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Common\\Participant_Panel.Common.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.DataAccess\\Participant_Panel.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.DataAccess\\Participant_Panel.DataAccess.csproj"
+            "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.DataAccess\\Participant_Panel.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.DataAccess\\Participant_Panel.DataAccess.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Dtos\\Participant_Panel.Dtos.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Dtos\\Participant_Panel.Dtos.csproj"
+            "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Dtos\\Participant_Panel.Dtos.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\VTP'23 Summer\\VTP 23(Summer) - Participant Panel\\Participant Panel\\Participant_Panel.Dtos\\Participant_Panel.Dtos.csproj"
             }
           }
         }
